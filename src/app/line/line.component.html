@@ -1,0 +1,9 @@
+<div id="connection">
+  <svg>
+    <line [attr.x1]="start_x" [attr.y1]="start_y" [attr.x2]="end_x" [attr.y2]="end_y" />
+    Sorry, your browser does not support inline SVG.
+  </svg>
+  <div id="input_box" [style.left.px]="(start_x + (end_x - start_x)/2)" [style.top.px]="(start_y + (end_y - start_y)/2)">
+    <input id="input" class="input" type="number" [(ngModel)]="length" (change)="lengthInputChange()" [style.transform]="'rotate(' + theta + 'deg)'">
+  </div>
+</div>

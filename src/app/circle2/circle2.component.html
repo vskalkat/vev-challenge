@@ -1,0 +1,9 @@
+<div class="circle" id="circle2" style="text-align-center" [style.left.px]="x_coord" [style.top.px]="y_coord" (lineMessageEvent)="receiveMessage(event)">
+  <span>
+    X <input class="input" type="number" value="" [(ngModel)]="x_coord">
+  </span>
+
+  <span>
+    Y <input class="input" type="number" value="" [(ngModel)]="y_coord">
+  </span>
+</div>

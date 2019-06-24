@@ -1,0 +1,23 @@
+.circle{
+  height: 150px;
+  width: 150px;
+  background-color: #FF6F5A;
+  border-radius: 50%;
+  display: inline-block;
+  cursor: -webkit-grab;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  display: flex;
+  position: absolute;
+}
+
+.input{
+  outline: none;
+  background: 0 0;
+  width:60px;
+  margin: 8px;
+  text-align: center;
+  border: none;
+  border-bottom: 1px solid #001733;
+}
